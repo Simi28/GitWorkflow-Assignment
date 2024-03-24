@@ -1,7 +1,7 @@
 name: Terraform Destroy
 on:
   workflow_dispatch:
-    branches: [ main ]
+     branches: [ main ]
 
 jobs:
   terraform:
@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    # This step saves your AWS access and secret key to be used by Terraform
+
     - name: Set up AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
@@ -20,7 +20,7 @@ jobs:
     - name: Setup Terraform
       uses: hashicorp/setup-terraform@v1
       with:
-        terraform_version: 0.13.4
+        terraform_version: v1.7.2
     - name: Initialize terraform resources
       run: terraform init  
     - name: Destroy  Resources
