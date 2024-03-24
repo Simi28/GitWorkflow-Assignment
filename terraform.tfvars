@@ -1,27 +1,30 @@
 user_count = 3
-user_names = ["sameeksha", "harshpreet", "jiaxu"]
+user_names = ["Sameeksha", "harshpreet", "Shreya"]
 group_name = "Github-Workflow"
 policy_arn = "arn:aws:iam::aws:policy/AmazonS3FullAccess"  
 tags = [
   {
     name = "sameeksha"
     tags = {
-      Environment = "Production"
-      Department  = "Engineering"
+      Environment = "Assignment"
+      Department  = "Trainee"
+      mail="sameeksha.bhadoria@cloudeq.com"
     }
   },
   {
     name = "harshpreet"
     tags = {
-      Environment = "Staging"
-      Department  = "Operations"
+      Environment = "Assignment"
+      Department  = "Trainee"
+      mail="harsh.kaur@cloudeq.com"
     }
   },
   {
-    name = "jiaxu"
+    name = "Shreya"
     tags = {
-      Environment = "Development"
-      Department  = "Product Management"
+      Environment = "Assignment"
+      Department  = "Trainee"
+      mail="shreya.sharma@cloudeq.com"
     }
   }
 ]
