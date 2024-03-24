@@ -1,5 +1,5 @@
 module "iam_user" {
-  source = "./modules/iam_user"
+  source = "./iam_user"
 
   count_users = var.user_count
   user_names  = var.user_names
@@ -7,8 +7,7 @@ module "iam_user" {
 }
 
 module "iam_group" {
-  source = "./modules/iam_group"
-
+  source = "./iam_group"
   group_name             = var.group_name
   user_names             = var.user_names
   policy_attachment_count = 1  
