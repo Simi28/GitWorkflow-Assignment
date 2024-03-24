@@ -1,6 +1,7 @@
 variable "group_name" {
   description = "IAM group name"
-  default = "group1"
+  type = number
+  
 }
 
 variable "user_names" {
@@ -11,7 +12,6 @@ variable "user_names" {
 variable "policy_attachment_count" {
   description = "Number of policy attachments to the group"
   type        = number
-  default     = 1
 }
 
 variable "policy_arns" {
