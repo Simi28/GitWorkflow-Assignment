@@ -1,5 +1,6 @@
 variable "user_count" {
   description = "Number of IAM users to create"
+  type = number
 }
 
 variable "user_names" {
@@ -9,6 +10,7 @@ variable "user_names" {
 
 variable "group_name" {
   description = "IAM group name"
+  type = string
 }
 
 variable "policy_arn" {
