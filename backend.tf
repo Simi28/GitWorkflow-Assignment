@@ -4,6 +4,6 @@
     key                = "state/terraform.tfstate"
     region         	   = "us-east-1"
     encrypt        	   = true
-    dynamodb_table = "lock_id_terraform"
+    dynamodb_table = "lock_id_terraformm"
   }
 }
