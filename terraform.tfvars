@@ -1,30 +1,30 @@
  user_count = 3
-user_names = ["User-1", "User-2", "User-3"]
+user_names = ["Vaibhav", "Aman", "Ajay"]
 group_name = "Github-Workflow"
 policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"  
 tags = [
   {
-    name = "User-1"
+    name = "Vaibhav"
     tags = {
       Environment = "Assignment"
       Department  = "Trainee"
-      mail="user1@xyz.com"
+      mail="vaibhav@xyz.com"
     }
   },
   {
-    name = "User-2"
+    name = "Aman"
     tags = {
       Environment = "Assignment"
       Department  = "Trainee"
-      mail="user2@xyz.com"
+      mail="aman@xyz.com"
     }
   },
   {
-    name = "User-3"
+    name = "Ajay"
     tags = {
       Environment = "Assignment"
       Department  = "Trainee"
-      mail="user3@xyz.com"
+      mail="ajay@xyz.com"
     }
   }
 ]
